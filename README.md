@@ -62,6 +62,7 @@ To create a configuration file:
     * `SCHEMA_REGISTRY_HOSTNAME` and `SCHEMA_REGISTRY_PORT`: points to Karapace schema registry hostname and port (In the Aiven Console is  visible in the Connection information section, **Schema Registry** tab)
       ![Aiven for Apache Kafka Schema registry tab](/img/schema-registry-uri.png)
     * `SCHEMA_REGISTRY_USERNAME` and `SCHEMA_REGISTRY_PASSWORD` for schema registry authentication (In the Aiven Console is  visible in the Connection information section, **Schema Registry** tab)
+    * `TOPIC_PREFIX` is the name of the topic that will be used to send the JSON data, and the prefix for the AVRO data
 
 
 ### Install required libraries
